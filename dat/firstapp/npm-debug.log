@@ -1,0 +1,729 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'pug' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of C:\Users\mcanmutaf\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\mcanmutaf\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'pug', null ]
+7 verbose cache add spec pug
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'pug',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'pug',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed pug@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for pug
+11 info addNameTag [ 'pug', 'latest' ]
+12 silly mapToRegistry name pug
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'pug',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'pug',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/pug
+17 verbose addNameTag registry:https://registry.npmjs.org/pug not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/pug
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 20:20:47
+21 verbose request id 4065c0e2c0333a09
+22 http request GET https://registry.npmjs.org/pug
+23 http 200 https://registry.npmjs.org/pug
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"CIUJ3DI18QP5PZ0XUIZD54BAB"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '22950',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Wed, 04 May 2016 17:21:08 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-fra1232-FRA',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1462382468.256716,VS0,VE427',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"CIUJ3DI18QP5PZ0XUIZD54BAB"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '22950',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Wed, 04 May 2016 17:21:08 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-fra1232-FRA',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1462382468.256716,VS0,VE427',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving pug to C:\Users\mcanmutaf\AppData\Roaming\npm-cache\registry.npmjs.org\pug\.cache.json
+27 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly addNameTag next cb for pug with tag latest
+29 silly addNamed pug@2.0.0-alpha6
+30 verbose addNamed "2.0.0-alpha6" is a plain semver version for pug
+31 silly mapToRegistry name pug
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'pug',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'pug',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/pug
+36 verbose addRemoteTarball https://registry.npmjs.org/pug/-/pug-2.0.0-alpha6.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/pug/-/pug-2.0.0-alpha6.tgz',
+37 verbose addRemoteTarball   '8558b388a8212c8c75eaa3efb7b113df861535bf' ]
+38 info retry fetch attempt 1 at 20:21:14
+39 info attempt registry request try #1 at 20:21:14
+40 http fetch GET https://registry.npmjs.org/pug/-/pug-2.0.0-alpha6.tgz
+41 http fetch 200 https://registry.npmjs.org/pug/-/pug-2.0.0-alpha6.tgz
+42 silly fetchAndShaCheck shasum 8558b388a8212c8c75eaa3efb7b113df861535bf
+43 verbose addTmpTarball C:\Users\MCANMU~1\AppData\Local\Temp\npm-9984-18f75d9d\registry.npmjs.org\pug\-\pug-2.0.0-alpha6.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for pug@2.0.0-alpha6
+45 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+46 silly cache afterAdd pug@2.0.0-alpha6
+47 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug\2.0.0-alpha6\package\package.json not in flight; writing
+48 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+49 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug\2.0.0-alpha6\package\package.json written
+50 silly install resolved [ { name: 'pug',
+50 silly install resolved     description: 'A clean, whitespace-sensitive template language for writing HTML',
+50 silly install resolved     version: '2.0.0-alpha6',
+50 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+50 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+50 silly install resolved     license: 'MIT',
+50 silly install resolved     repository: { type: 'git', url: 'git://github.com/pugjs/pug.git' },
+50 silly install resolved     main: 'lib',
+50 silly install resolved     dependencies:
+50 silly install resolved      { 'pug-code-gen': '0.0.7',
+50 silly install resolved        'pug-filters': '1.2.1',
+50 silly install resolved        'pug-lexer': '1.0.1',
+50 silly install resolved        'pug-linker': '0.0.4',
+50 silly install resolved        'pug-loader': '1.0.2',
+50 silly install resolved        'pug-parser': '1.0.0',
+50 silly install resolved        'pug-runtime': '2.0.1',
+50 silly install resolved        'pug-strip-comments': '0.0.1' },
+50 silly install resolved     devDependencies:
+50 silly install resolved      { browserify: '*',
+50 silly install resolved        'browserify-middleware': '~4.1.0',
+50 silly install resolved        'code-mirror': '~3.22.0',
+50 silly install resolved        coveralls: '^2.11.2',
+50 silly install resolved        doctypes: '^1.0.0',
+50 silly install resolved        express: '^4.10.4',
+50 silly install resolved        'github-basic': '^5.0.0',
+50 silly install resolved        'highlight-codemirror': '^4.6.1',
+50 silly install resolved        inconsolata: '0.0.2',
+50 silly install resolved        istanbul: '*',
+50 silly install resolved        jquery: '^2.1.4',
+50 silly install resolved        'jstransformer-cdata': '^1.0.0',
+50 silly install resolved        'jstransformer-coffee-script': '^1.0.0',
+50 silly install resolved        'jstransformer-less': '^2.1.0',
+50 silly install resolved        'jstransformer-markdown-it': '^0.2.2',
+50 silly install resolved        'jstransformer-stylus': '^1.0.0',
+50 silly install resolved        'jstransformer-uglify-js': '^1.1.1',
+50 silly install resolved        'jstransformer-verbatim': '^1.0.0',
+50 silly install resolved        'less-file': '0.0.9',
+50 silly install resolved        lsr: '^1.0.0',
+50 silly install resolved        'markdown-it': '^5.0.1',
+50 silly install resolved        mocha: '*',
+50 silly install resolved        'pull-request': '^3.0.0',
+50 silly install resolved        rimraf: '^2.2.8',
+50 silly install resolved        should: '*',
+50 silly install resolved        stop: '^3.0.0-rc1',
+50 silly install resolved        stylus: '*',
+50 silly install resolved        twbs: '0.0.6',
+50 silly install resolved        'uglify-js': '^2.6.1' },
+50 silly install resolved     scripts:
+50 silly install resolved      { test: 'mocha -R spec',
+50 silly install resolved        coverage: 'istanbul cover node_modules/mocha/bin/_mocha -- -R dot',
+50 silly install resolved        coveralls: 'npm run coverage && cat ./coverage/lcov.info | coveralls' },
+50 silly install resolved     browser: { fs: false },
+50 silly install resolved     homepage: 'http://pug-lang.com',
+50 silly install resolved     gitHead: 'de4fd530dc730156ed32a7480cc9b137b4bdd827',
+50 silly install resolved     bugs: { url: 'https://github.com/pugjs/pug/issues' },
+50 silly install resolved     _id: 'pug@2.0.0-alpha6',
+50 silly install resolved     _shasum: '8558b388a8212c8c75eaa3efb7b113df861535bf',
+50 silly install resolved     _from: 'pug@latest',
+50 silly install resolved     _npmVersion: '3.8.3',
+50 silly install resolved     _nodeVersion: '5.10.0',
+50 silly install resolved     _npmUser: { name: 'timothygu', email: 'timothygu99@gmail.com' },
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: '8558b388a8212c8c75eaa3efb7b113df861535bf',
+50 silly install resolved        tarball: 'https://registry.npmjs.org/pug/-/pug-2.0.0-alpha6.tgz' },
+50 silly install resolved     _npmOperationalInternal:
+50 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+50 silly install resolved        tmp: 'tmp/pug-2.0.0-alpha6.tgz_1460963819002_0.5568488375283778' },
+50 silly install resolved     directories: {},
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/pug/-/pug-2.0.0-alpha6.tgz' } ]
+51 info install pug@2.0.0-alpha6 into C:\Users\mcanmutaf\AppData\Roaming\npm
+52 info installOne pug@2.0.0-alpha6
+53 verbose installOne of pug to C:\Users\mcanmutaf\AppData\Roaming\npm not in flight; installing
+54 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+55 verbose lock using C:\Users\mcanmutaf\AppData\Roaming\npm-cache\_locks\pug-5921ad199248371b.lock for C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug
+56 silly install write writing pug 2.0.0-alpha6 to C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug
+57 verbose unbuild node_modules\pug
+58 silly gentlyRm C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug is being purged from base C:\Users\mcanmutaf\AppData\Roaming\npm
+59 verbose gentlyRm don't care about contents; nuking C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug
+60 verbose tar unpack C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug\2.0.0-alpha6\package.tgz
+61 verbose tar unpacking to C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug
+62 silly gentlyRm C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug is being purged
+63 verbose gentlyRm don't care about contents; nuking C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug
+64 silly gunzTarPerm modes [ '777', '666' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+67 silly gunzTarPerm extractEntry .npmignore
+68 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+71 silly gunzTarPerm extractEntry LICENSE
+72 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+73 silly gunzTarPerm extractEntry development.js
+74 silly gunzTarPerm modified mode [ 'development.js', 420, 438 ]
+75 silly gunzTarPerm extractEntry register.js
+76 silly gunzTarPerm modified mode [ 'register.js', 420, 438 ]
+77 silly gunzTarPerm extractEntry release.js
+78 silly gunzTarPerm modified mode [ 'release.js', 420, 438 ]
+79 silly gunzTarPerm extractEntry History.md
+80 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+81 silly gunzTarPerm extractEntry lib/index.js
+82 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+83 silly gunzTarPerm extractEntry .editorconfig
+84 silly gunzTarPerm modified mode [ '.editorconfig', 420, 438 ]
+85 silly gunzTarPerm extractEntry Readme_zh-cn.md
+86 silly gunzTarPerm modified mode [ 'Readme_zh-cn.md', 420, 438 ]
+87 verbose write writing to C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug\package.json
+88 info preinstall pug@2.0.0-alpha6
+89 verbose readDependencies loading dependencies from C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug\package.json
+90 silly prepareForInstallMany adding pug-code-gen@0.0.7 from pug dependencies
+91 silly prepareForInstallMany adding pug-filters@1.2.1 from pug dependencies
+92 silly prepareForInstallMany adding pug-lexer@1.0.1 from pug dependencies
+93 silly prepareForInstallMany adding pug-linker@0.0.4 from pug dependencies
+94 silly prepareForInstallMany adding pug-loader@1.0.2 from pug dependencies
+95 silly prepareForInstallMany adding pug-parser@1.0.0 from pug dependencies
+96 silly prepareForInstallMany adding pug-runtime@2.0.1 from pug dependencies
+97 silly prepareForInstallMany adding pug-strip-comments@0.0.1 from pug dependencies
+98 verbose readDependencies loading dependencies from C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug\package.json
+99 silly cache add args [ 'pug-lexer@1.0.1', null ]
+100 verbose cache add spec pug-lexer@1.0.1
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'pug-lexer@1.0.1',
+101 silly cache add   scope: null,
+101 silly cache add   name: 'pug-lexer',
+101 silly cache add   rawSpec: '1.0.1',
+101 silly cache add   spec: '1.0.1',
+101 silly cache add   type: 'version' }
+102 silly addNamed pug-lexer@1.0.1
+103 verbose addNamed "1.0.1" is a plain semver version for pug-lexer
+104 silly mapToRegistry name pug-lexer
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'pug-lexer',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   name: 'pug-lexer',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/pug-lexer
+109 verbose addNameVersion registry:https://registry.npmjs.org/pug-lexer not in flight; fetching
+110 silly cache add args [ 'pug-linker@0.0.4', null ]
+111 verbose cache add spec pug-linker@0.0.4
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: 'pug-linker@0.0.4',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'pug-linker',
+112 silly cache add   rawSpec: '0.0.4',
+112 silly cache add   spec: '0.0.4',
+112 silly cache add   type: 'version' }
+113 silly addNamed pug-linker@0.0.4
+114 verbose addNamed "0.0.4" is a plain semver version for pug-linker
+115 silly mapToRegistry name pug-linker
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry data Result {
+118 silly mapToRegistry   raw: 'pug-linker',
+118 silly mapToRegistry   scope: null,
+118 silly mapToRegistry   name: 'pug-linker',
+118 silly mapToRegistry   rawSpec: '',
+118 silly mapToRegistry   spec: 'latest',
+118 silly mapToRegistry   type: 'tag' }
+119 silly mapToRegistry uri https://registry.npmjs.org/pug-linker
+120 verbose addNameVersion registry:https://registry.npmjs.org/pug-linker not in flight; fetching
+121 silly cache add args [ 'pug-loader@1.0.2', null ]
+122 verbose cache add spec pug-loader@1.0.2
+123 silly cache add parsed spec Result {
+123 silly cache add   raw: 'pug-loader@1.0.2',
+123 silly cache add   scope: null,
+123 silly cache add   name: 'pug-loader',
+123 silly cache add   rawSpec: '1.0.2',
+123 silly cache add   spec: '1.0.2',
+123 silly cache add   type: 'version' }
+124 silly addNamed pug-loader@1.0.2
+125 verbose addNamed "1.0.2" is a plain semver version for pug-loader
+126 silly mapToRegistry name pug-loader
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: 'pug-loader',
+129 silly mapToRegistry   scope: null,
+129 silly mapToRegistry   name: 'pug-loader',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri https://registry.npmjs.org/pug-loader
+131 verbose addNameVersion registry:https://registry.npmjs.org/pug-loader not in flight; fetching
+132 silly cache add args [ 'pug-parser@1.0.0', null ]
+133 verbose cache add spec pug-parser@1.0.0
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'pug-parser@1.0.0',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'pug-parser',
+134 silly cache add   rawSpec: '1.0.0',
+134 silly cache add   spec: '1.0.0',
+134 silly cache add   type: 'version' }
+135 silly addNamed pug-parser@1.0.0
+136 verbose addNamed "1.0.0" is a plain semver version for pug-parser
+137 silly mapToRegistry name pug-parser
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'pug-parser',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   name: 'pug-parser',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/pug-parser
+142 verbose addNameVersion registry:https://registry.npmjs.org/pug-parser not in flight; fetching
+143 silly cache add args [ 'pug-runtime@2.0.1', null ]
+144 verbose cache add spec pug-runtime@2.0.1
+145 silly cache add parsed spec Result {
+145 silly cache add   raw: 'pug-runtime@2.0.1',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'pug-runtime',
+145 silly cache add   rawSpec: '2.0.1',
+145 silly cache add   spec: '2.0.1',
+145 silly cache add   type: 'version' }
+146 silly addNamed pug-runtime@2.0.1
+147 verbose addNamed "2.0.1" is a plain semver version for pug-runtime
+148 silly mapToRegistry name pug-runtime
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry data Result {
+151 silly mapToRegistry   raw: 'pug-runtime',
+151 silly mapToRegistry   scope: null,
+151 silly mapToRegistry   name: 'pug-runtime',
+151 silly mapToRegistry   rawSpec: '',
+151 silly mapToRegistry   spec: 'latest',
+151 silly mapToRegistry   type: 'tag' }
+152 silly mapToRegistry uri https://registry.npmjs.org/pug-runtime
+153 verbose addNameVersion registry:https://registry.npmjs.org/pug-runtime not in flight; fetching
+154 silly cache add args [ 'pug-strip-comments@0.0.1', null ]
+155 verbose cache add spec pug-strip-comments@0.0.1
+156 silly cache add parsed spec Result {
+156 silly cache add   raw: 'pug-strip-comments@0.0.1',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'pug-strip-comments',
+156 silly cache add   rawSpec: '0.0.1',
+156 silly cache add   spec: '0.0.1',
+156 silly cache add   type: 'version' }
+157 silly addNamed pug-strip-comments@0.0.1
+158 verbose addNamed "0.0.1" is a plain semver version for pug-strip-comments
+159 silly mapToRegistry name pug-strip-comments
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: 'pug-strip-comments',
+162 silly mapToRegistry   scope: null,
+162 silly mapToRegistry   name: 'pug-strip-comments',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri https://registry.npmjs.org/pug-strip-comments
+164 verbose addNameVersion registry:https://registry.npmjs.org/pug-strip-comments not in flight; fetching
+165 silly cache add args [ 'pug-code-gen@0.0.7', null ]
+166 verbose cache add spec pug-code-gen@0.0.7
+167 silly cache add parsed spec Result {
+167 silly cache add   raw: 'pug-code-gen@0.0.7',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'pug-code-gen',
+167 silly cache add   rawSpec: '0.0.7',
+167 silly cache add   spec: '0.0.7',
+167 silly cache add   type: 'version' }
+168 silly addNamed pug-code-gen@0.0.7
+169 verbose addNamed "0.0.7" is a plain semver version for pug-code-gen
+170 silly mapToRegistry name pug-code-gen
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'pug-code-gen',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   name: 'pug-code-gen',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://registry.npmjs.org/pug-code-gen
+175 verbose addNameVersion registry:https://registry.npmjs.org/pug-code-gen not in flight; fetching
+176 silly cache add args [ 'pug-filters@1.2.1', null ]
+177 verbose cache add spec pug-filters@1.2.1
+178 silly cache add parsed spec Result {
+178 silly cache add   raw: 'pug-filters@1.2.1',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'pug-filters',
+178 silly cache add   rawSpec: '1.2.1',
+178 silly cache add   spec: '1.2.1',
+178 silly cache add   type: 'version' }
+179 silly addNamed pug-filters@1.2.1
+180 verbose addNamed "1.2.1" is a plain semver version for pug-filters
+181 silly mapToRegistry name pug-filters
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry data Result {
+184 silly mapToRegistry   raw: 'pug-filters',
+184 silly mapToRegistry   scope: null,
+184 silly mapToRegistry   name: 'pug-filters',
+184 silly mapToRegistry   rawSpec: '',
+184 silly mapToRegistry   spec: 'latest',
+184 silly mapToRegistry   type: 'tag' }
+185 silly mapToRegistry uri https://registry.npmjs.org/pug-filters
+186 verbose addNameVersion registry:https://registry.npmjs.org/pug-filters not in flight; fetching
+187 verbose request uri https://registry.npmjs.org/pug-lexer
+188 verbose request no auth needed
+189 info attempt registry request try #1 at 20:21:22
+190 http request GET https://registry.npmjs.org/pug-lexer
+191 verbose request uri https://registry.npmjs.org/pug-linker
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 20:21:22
+194 http request GET https://registry.npmjs.org/pug-linker
+195 verbose request uri https://registry.npmjs.org/pug-loader
+196 verbose request no auth needed
+197 info attempt registry request try #1 at 20:21:22
+198 http request GET https://registry.npmjs.org/pug-loader
+199 verbose request uri https://registry.npmjs.org/pug-parser
+200 verbose request no auth needed
+201 info attempt registry request try #1 at 20:21:22
+202 http request GET https://registry.npmjs.org/pug-parser
+203 verbose request uri https://registry.npmjs.org/pug-runtime
+204 verbose request no auth needed
+205 info attempt registry request try #1 at 20:21:22
+206 http request GET https://registry.npmjs.org/pug-runtime
+207 verbose request uri https://registry.npmjs.org/pug-strip-comments
+208 verbose request no auth needed
+209 info attempt registry request try #1 at 20:21:22
+210 http request GET https://registry.npmjs.org/pug-strip-comments
+211 verbose request uri https://registry.npmjs.org/pug-code-gen
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 20:21:22
+214 http request GET https://registry.npmjs.org/pug-code-gen
+215 verbose request uri https://registry.npmjs.org/pug-filters
+216 verbose request no auth needed
+217 info attempt registry request try #1 at 20:21:22
+218 http request GET https://registry.npmjs.org/pug-filters
+219 http 200 https://registry.npmjs.org/pug-lexer
+220 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+220 verbose headers   etag: '"8PFJBNPNQZ46RIGT675R11QJ1"',
+220 verbose headers   'content-type': 'application/json',
+220 verbose headers   'cache-control': 'max-age=300',
+220 verbose headers   'content-length': '6370',
+220 verbose headers   'accept-ranges': 'bytes',
+220 verbose headers   date: 'Wed, 04 May 2016 17:21:26 GMT',
+220 verbose headers   via: '1.1 varnish',
+220 verbose headers   age: '0',
+220 verbose headers   connection: 'keep-alive',
+220 verbose headers   'x-served-by': 'cache-fra1232-FRA',
+220 verbose headers   'x-cache': 'HIT',
+220 verbose headers   'x-cache-hits': '1',
+220 verbose headers   'x-timer': 'S1462382485.866158,VS0,VE435',
+220 verbose headers   vary: 'Accept-Encoding' }
+221 silly get cb [ 200,
+221 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+221 silly get     etag: '"8PFJBNPNQZ46RIGT675R11QJ1"',
+221 silly get     'content-type': 'application/json',
+221 silly get     'cache-control': 'max-age=300',
+221 silly get     'content-length': '6370',
+221 silly get     'accept-ranges': 'bytes',
+221 silly get     date: 'Wed, 04 May 2016 17:21:26 GMT',
+221 silly get     via: '1.1 varnish',
+221 silly get     age: '0',
+221 silly get     connection: 'keep-alive',
+221 silly get     'x-served-by': 'cache-fra1232-FRA',
+221 silly get     'x-cache': 'HIT',
+221 silly get     'x-cache-hits': '1',
+221 silly get     'x-timer': 'S1462382485.866158,VS0,VE435',
+221 silly get     vary: 'Accept-Encoding' } ]
+222 verbose get saving pug-lexer to C:\Users\mcanmutaf\AppData\Roaming\npm-cache\registry.npmjs.org\pug-lexer\.cache.json
+223 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+224 silly mapToRegistry name pug-lexer
+225 silly mapToRegistry using default registry
+226 silly mapToRegistry registry https://registry.npmjs.org/
+227 silly mapToRegistry data Result {
+227 silly mapToRegistry   raw: 'pug-lexer',
+227 silly mapToRegistry   scope: null,
+227 silly mapToRegistry   name: 'pug-lexer',
+227 silly mapToRegistry   rawSpec: '',
+227 silly mapToRegistry   spec: 'latest',
+227 silly mapToRegistry   type: 'tag' }
+228 silly mapToRegistry uri https://registry.npmjs.org/pug-lexer
+229 verbose addRemoteTarball https://registry.npmjs.org/pug-lexer/-/pug-lexer-1.0.1.tgz not in flight; adding
+230 verbose addRemoteTarball [ 'https://registry.npmjs.org/pug-lexer/-/pug-lexer-1.0.1.tgz',
+230 verbose addRemoteTarball   '35aae1f090b47a32522465b44b8a01e47717fd0b' ]
+231 info retry fetch attempt 1 at 20:21:25
+232 info attempt registry request try #1 at 20:21:25
+233 http fetch GET https://registry.npmjs.org/pug-lexer/-/pug-lexer-1.0.1.tgz
+234 http fetch 200 https://registry.npmjs.org/pug-lexer/-/pug-lexer-1.0.1.tgz
+235 http 200 https://registry.npmjs.org/pug-linker
+236 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+236 verbose headers   etag: '"7AWHPSRWE87UPPIEJ7KLBYMCY"',
+236 verbose headers   'content-type': 'application/json',
+236 verbose headers   'cache-control': 'max-age=300',
+236 verbose headers   'content-length': '4088',
+236 verbose headers   'accept-ranges': 'bytes',
+236 verbose headers   date: 'Wed, 04 May 2016 17:21:37 GMT',
+236 verbose headers   via: '1.1 varnish',
+236 verbose headers   age: '0',
+236 verbose headers   connection: 'keep-alive',
+236 verbose headers   'x-served-by': 'cache-fra1240-FRA',
+236 verbose headers   'x-cache': 'HIT',
+236 verbose headers   'x-cache-hits': '1',
+236 verbose headers   'x-timer': 'S1462382496.522994,VS0,VE749',
+236 verbose headers   vary: 'Accept-Encoding' }
+237 silly get cb [ 200,
+237 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+237 silly get     etag: '"7AWHPSRWE87UPPIEJ7KLBYMCY"',
+237 silly get     'content-type': 'application/json',
+237 silly get     'cache-control': 'max-age=300',
+237 silly get     'content-length': '4088',
+237 silly get     'accept-ranges': 'bytes',
+237 silly get     date: 'Wed, 04 May 2016 17:21:37 GMT',
+237 silly get     via: '1.1 varnish',
+237 silly get     age: '0',
+237 silly get     connection: 'keep-alive',
+237 silly get     'x-served-by': 'cache-fra1240-FRA',
+237 silly get     'x-cache': 'HIT',
+237 silly get     'x-cache-hits': '1',
+237 silly get     'x-timer': 'S1462382496.522994,VS0,VE749',
+237 silly get     vary: 'Accept-Encoding' } ]
+238 verbose get saving pug-linker to C:\Users\mcanmutaf\AppData\Roaming\npm-cache\registry.npmjs.org\pug-linker\.cache.json
+239 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+240 silly mapToRegistry name pug-linker
+241 silly mapToRegistry using default registry
+242 silly mapToRegistry registry https://registry.npmjs.org/
+243 silly mapToRegistry data Result {
+243 silly mapToRegistry   raw: 'pug-linker',
+243 silly mapToRegistry   scope: null,
+243 silly mapToRegistry   name: 'pug-linker',
+243 silly mapToRegistry   rawSpec: '',
+243 silly mapToRegistry   spec: 'latest',
+243 silly mapToRegistry   type: 'tag' }
+244 silly mapToRegistry uri https://registry.npmjs.org/pug-linker
+245 verbose addRemoteTarball https://registry.npmjs.org/pug-linker/-/pug-linker-0.0.4.tgz not in flight; adding
+246 verbose addRemoteTarball [ 'https://registry.npmjs.org/pug-linker/-/pug-linker-0.0.4.tgz',
+246 verbose addRemoteTarball   'eb9a785b2a9ae4a6e42eaf9fd637ccae6b7b3046' ]
+247 info retry fetch attempt 1 at 20:21:40
+248 info attempt registry request try #1 at 20:21:40
+249 http fetch GET https://registry.npmjs.org/pug-linker/-/pug-linker-0.0.4.tgz
+250 silly fetchAndShaCheck shasum 35aae1f090b47a32522465b44b8a01e47717fd0b
+251 verbose addTmpTarball C:\Users\MCANMU~1\AppData\Local\Temp\npm-9984-18f75d9d\registry.npmjs.org\pug-lexer\-\pug-lexer-1.0.1.tgz not in flight; adding
+252 verbose addTmpTarball already have metadata; skipping unpack for pug-lexer@1.0.1
+253 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+254 silly cache afterAdd pug-lexer@1.0.1
+255 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug-lexer\1.0.1\package\package.json not in flight; writing
+256 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+257 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug-lexer\1.0.1\package\package.json written
+258 http 200 https://registry.npmjs.org/pug-strip-comments
+259 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+259 verbose headers   etag: '"191EEDFIDPLB857HB17MUL20J"',
+259 verbose headers   'content-type': 'application/json',
+259 verbose headers   'cache-control': 'max-age=300',
+259 verbose headers   'content-length': '4837',
+259 verbose headers   'accept-ranges': 'bytes',
+259 verbose headers   date: 'Wed, 04 May 2016 17:21:36 GMT',
+259 verbose headers   via: '1.1 varnish',
+259 verbose headers   age: '0',
+259 verbose headers   connection: 'keep-alive',
+259 verbose headers   'x-served-by': 'cache-fra1239-FRA',
+259 verbose headers   'x-cache': 'HIT',
+259 verbose headers   'x-cache-hits': '1',
+259 verbose headers   'x-timer': 'S1462382496.548015,VS0,VE418',
+259 verbose headers   vary: 'Accept-Encoding' }
+260 silly get cb [ 200,
+260 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+260 silly get     etag: '"191EEDFIDPLB857HB17MUL20J"',
+260 silly get     'content-type': 'application/json',
+260 silly get     'cache-control': 'max-age=300',
+260 silly get     'content-length': '4837',
+260 silly get     'accept-ranges': 'bytes',
+260 silly get     date: 'Wed, 04 May 2016 17:21:36 GMT',
+260 silly get     via: '1.1 varnish',
+260 silly get     age: '0',
+260 silly get     connection: 'keep-alive',
+260 silly get     'x-served-by': 'cache-fra1239-FRA',
+260 silly get     'x-cache': 'HIT',
+260 silly get     'x-cache-hits': '1',
+260 silly get     'x-timer': 'S1462382496.548015,VS0,VE418',
+260 silly get     vary: 'Accept-Encoding' } ]
+261 verbose get saving pug-strip-comments to C:\Users\mcanmutaf\AppData\Roaming\npm-cache\registry.npmjs.org\pug-strip-comments\.cache.json
+262 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+263 silly mapToRegistry name pug-strip-comments
+264 silly mapToRegistry using default registry
+265 silly mapToRegistry registry https://registry.npmjs.org/
+266 silly mapToRegistry data Result {
+266 silly mapToRegistry   raw: 'pug-strip-comments',
+266 silly mapToRegistry   scope: null,
+266 silly mapToRegistry   name: 'pug-strip-comments',
+266 silly mapToRegistry   rawSpec: '',
+266 silly mapToRegistry   spec: 'latest',
+266 silly mapToRegistry   type: 'tag' }
+267 silly mapToRegistry uri https://registry.npmjs.org/pug-strip-comments
+268 verbose addRemoteTarball https://registry.npmjs.org/pug-strip-comments/-/pug-strip-comments-0.0.1.tgz not in flight; adding
+269 verbose addRemoteTarball [ 'https://registry.npmjs.org/pug-strip-comments/-/pug-strip-comments-0.0.1.tgz',
+269 verbose addRemoteTarball   'ac346bb773d82492bf922dae2d4681a20cf0638f' ]
+270 info retry fetch attempt 1 at 20:21:43
+271 info attempt registry request try #1 at 20:21:43
+272 http fetch GET https://registry.npmjs.org/pug-strip-comments/-/pug-strip-comments-0.0.1.tgz
+273 http fetch 200 https://registry.npmjs.org/pug-linker/-/pug-linker-0.0.4.tgz
+274 http 200 https://registry.npmjs.org/pug-filters
+275 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+275 verbose headers   etag: '"6PEH8FPAHL73C7C4EQREYL5U0"',
+275 verbose headers   'content-type': 'application/json',
+275 verbose headers   'cache-control': 'max-age=300',
+275 verbose headers   'content-length': '8038',
+275 verbose headers   'accept-ranges': 'bytes',
+275 verbose headers   date: 'Wed, 04 May 2016 17:21:45 GMT',
+275 verbose headers   via: '1.1 varnish',
+275 verbose headers   age: '0',
+275 verbose headers   connection: 'keep-alive',
+275 verbose headers   'x-served-by': 'cache-fra1233-FRA',
+275 verbose headers   'x-cache': 'HIT',
+275 verbose headers   'x-cache-hits': '1',
+275 verbose headers   'x-timer': 'S1462382505.098661,VS0,VE188',
+275 verbose headers   vary: 'Accept-Encoding' }
+276 silly get cb [ 200,
+276 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+276 silly get     etag: '"6PEH8FPAHL73C7C4EQREYL5U0"',
+276 silly get     'content-type': 'application/json',
+276 silly get     'cache-control': 'max-age=300',
+276 silly get     'content-length': '8038',
+276 silly get     'accept-ranges': 'bytes',
+276 silly get     date: 'Wed, 04 May 2016 17:21:45 GMT',
+276 silly get     via: '1.1 varnish',
+276 silly get     age: '0',
+276 silly get     connection: 'keep-alive',
+276 silly get     'x-served-by': 'cache-fra1233-FRA',
+276 silly get     'x-cache': 'HIT',
+276 silly get     'x-cache-hits': '1',
+276 silly get     'x-timer': 'S1462382505.098661,VS0,VE188',
+276 silly get     vary: 'Accept-Encoding' } ]
+277 verbose get saving pug-filters to C:\Users\mcanmutaf\AppData\Roaming\npm-cache\registry.npmjs.org\pug-filters\.cache.json
+278 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+279 silly mapToRegistry name pug-filters
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry https://registry.npmjs.org/
+282 silly mapToRegistry data Result {
+282 silly mapToRegistry   raw: 'pug-filters',
+282 silly mapToRegistry   scope: null,
+282 silly mapToRegistry   name: 'pug-filters',
+282 silly mapToRegistry   rawSpec: '',
+282 silly mapToRegistry   spec: 'latest',
+282 silly mapToRegistry   type: 'tag' }
+283 silly mapToRegistry uri https://registry.npmjs.org/pug-filters
+284 verbose addRemoteTarball https://registry.npmjs.org/pug-filters/-/pug-filters-1.2.1.tgz not in flight; adding
+285 verbose addRemoteTarball [ 'https://registry.npmjs.org/pug-filters/-/pug-filters-1.2.1.tgz',
+285 verbose addRemoteTarball   'f0bb5d77b5aae9f58239075a7f86e65f99026634' ]
+286 info retry fetch attempt 1 at 20:21:53
+287 info attempt registry request try #1 at 20:21:53
+288 http fetch GET https://registry.npmjs.org/pug-filters/-/pug-filters-1.2.1.tgz
+289 silly fetchAndShaCheck shasum eb9a785b2a9ae4a6e42eaf9fd637ccae6b7b3046
+290 verbose addTmpTarball C:\Users\MCANMU~1\AppData\Local\Temp\npm-9984-18f75d9d\registry.npmjs.org\pug-linker\-\pug-linker-0.0.4.tgz not in flight; adding
+291 verbose addTmpTarball already have metadata; skipping unpack for pug-linker@0.0.4
+292 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+293 silly cache afterAdd pug-linker@0.0.4
+294 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug-linker\0.0.4\package\package.json not in flight; writing
+295 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+296 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug-linker\0.0.4\package\package.json written
+297 http fetch 200 https://registry.npmjs.org/pug-strip-comments/-/pug-strip-comments-0.0.1.tgz
+298 silly fetchAndShaCheck shasum ac346bb773d82492bf922dae2d4681a20cf0638f
+299 verbose addTmpTarball C:\Users\MCANMU~1\AppData\Local\Temp\npm-9984-18f75d9d\registry.npmjs.org\pug-strip-comments\-\pug-strip-comments-0.0.1.tgz not in flight; adding
+300 verbose addTmpTarball already have metadata; skipping unpack for pug-strip-comments@0.0.1
+301 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+302 silly cache afterAdd pug-strip-comments@0.0.1
+303 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug-strip-comments\0.0.1\package\package.json not in flight; writing
+304 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+305 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug-strip-comments\0.0.1\package\package.json written
+306 http fetch 200 https://registry.npmjs.org/pug-filters/-/pug-filters-1.2.1.tgz
+307 silly fetchAndShaCheck shasum f0bb5d77b5aae9f58239075a7f86e65f99026634
+308 verbose addTmpTarball C:\Users\MCANMU~1\AppData\Local\Temp\npm-9984-18f75d9d\registry.npmjs.org\pug-filters\-\pug-filters-1.2.1.tgz not in flight; adding
+309 verbose addTmpTarball already have metadata; skipping unpack for pug-filters@1.2.1
+310 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+311 silly cache afterAdd pug-filters@1.2.1
+312 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug-filters\1.2.1\package\package.json not in flight; writing
+313 verbose correctMkdir C:\Users\mcanmutaf\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+314 verbose afterAdd C:\Users\mcanmutaf\AppData\Roaming\npm-cache\pug-filters\1.2.1\package\package.json written
+315 info retry will retry, error on last attempt: Error: read ECONNRESET
+316 info retry will retry, error on last attempt: Error: read ECONNRESET
+317 info retry will retry, error on last attempt: Error: read ECONNRESET
+318 info retry will retry, error on last attempt: Error: read ECONNRESET
+319 info attempt registry request try #2 at 20:53:27
+320 http request GET https://registry.npmjs.org/pug-code-gen
+321 info attempt registry request try #2 at 20:53:27
+322 http request GET https://registry.npmjs.org/pug-loader
+323 info attempt registry request try #2 at 20:53:27
+324 http request GET https://registry.npmjs.org/pug-parser
+325 info attempt registry request try #2 at 20:53:27
+326 http request GET https://registry.npmjs.org/pug-runtime
+327 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+328 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+329 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+330 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+331 info attempt registry request try #3 at 20:54:27
+332 http request GET https://registry.npmjs.org/pug-code-gen
+333 info attempt registry request try #3 at 20:54:27
+334 http request GET https://registry.npmjs.org/pug-loader
+335 info attempt registry request try #3 at 20:54:27
+336 http request GET https://registry.npmjs.org/pug-parser
+337 info attempt registry request try #3 at 20:54:27
+338 http request GET https://registry.npmjs.org/pug-runtime
+339 verbose about to build C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug
+340 verbose unlock done using C:\Users\mcanmutaf\AppData\Roaming\npm-cache\_locks\pug-5921ad199248371b.lock for C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug
+341 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+341 verbose stack     at errnoException (dns.js:27:10)
+341 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+342 verbose cwd C:\Users\mcanmutaf\Desktop\node js\dat\firstapp
+343 error Windows_NT 10.0.10240
+344 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "pug"
+345 error node v4.4.3
+346 error npm  v2.15.1
+347 error code ENOTFOUND
+348 error errno ENOTFOUND
+349 error syscall getaddrinfo
+350 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+350 error network This is most likely not a problem with npm itself
+350 error network and is related to network connectivity.
+350 error network In most cases you are behind a proxy or have bad network settings.
+350 error network
+350 error network If you are behind a proxy, please make sure that the
+350 error network 'proxy' config is set properly.  See: 'npm help config'
+351 verbose exit [ 1, true ]
+352 verbose unbuild node_modules\pug
+353 info preuninstall pug@2.0.0-alpha6
+354 info uninstall pug@2.0.0-alpha6
+355 verbose unbuild rmStuff pug@2.0.0-alpha6 from C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules
+356 info postuninstall pug@2.0.0-alpha6
+357 silly gentlyRm C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug is being purged from base C:\Users\mcanmutaf\AppData\Roaming\npm
+358 verbose gentlyRm don't care about contents; nuking C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug
+359 silly vacuum-fs purging C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules\pug
+360 silly vacuum-fs quitting because other entries in C:\Users\mcanmutaf\AppData\Roaming\npm\node_modules
